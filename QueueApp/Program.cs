@@ -7,6 +7,7 @@ namespace QueueApp
 {
     class Program
     {
+        // Copy connection string from Storage-Account -> Settings -> Access Keys
         private const string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=<account-name>;AccountKey=<account-key>;EndpointSuffix=core.windows.net";
         
         static async Task Main(string[] args)
